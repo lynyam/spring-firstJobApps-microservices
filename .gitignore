@@ -1,0 +1,40 @@
+# Fichiers compilés et de build
+target/
+*.class
+
+# Logs
+*.log
+*.out
+*.err
+log/
+
+# Fichiers spécifiques à IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Fichiers Maven
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Fichiers spécifiques à macOS
+.DS_Store
+
+# Fichiers spécifiques à Windows
+Thumbs.db
+Desktop.ini
+
+# Fichiers spécifiques à Linux
+*~
+
+# Fichiers et dossiers IntelliJ supplémentaires à ignorer
+.idea/
+*.iml
+out/
+
